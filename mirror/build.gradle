@@ -1,0 +1,8 @@
+description = 'mirror'
+
+dependencies{
+    compile project(':anno')
+    annotationProcessor project(':anno')
+//    compile group: 'org.projectlombok', name: 'lombok', version: '1.18.6'
+
+}
